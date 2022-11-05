@@ -1,0 +1,131 @@
+{
+  "lead": {
+    "mainTitle": {
+      "mainText": "We <span>transform</span> the bathroom into the most important place in the <span>home.</span>"
+    },
+    "navigation": {
+      "aboutCompany": "About Us",
+      "ourBrands": "Our Brands",
+      "career": "",
+      "review": "",
+      "contact": "Contacts",
+      "copyright": "© 2021 AQUAART GROUP All rights reserved"
+    },
+    "secondScreen": {
+      "mainTitle": "Purpose of Our Brand",
+      "bigText": "Our goal is not just to make amazing bathroom products. We inspire people to dream big.",
+      "linkText": "Find out more about Aquaart Group"
+    },
+    "careerScreen": {
+      "preTitle": "A career with Aquaart Group",
+      "mainTitle": "<span>How can we truly measure the quality of work?</span>",
+      "answer": "<span>To us, the answer is simple</span> — the pleasure that our work brings. This is our main KPI. This is what makes us unique.",
+      "linkText": "Find out more about Aquaart Group"
+    },
+    "feedback": {
+      "title": "Want to ask a question?",
+      "linkText": "Feedback",
+      "hotline": "Hotline Aquaart Group"
+    },
+    "about-company": {
+      "mainText": "We create new value in the <span>people’s lives all over the world.</span>"
+    },
+    "phylosophy": {
+      "preTitle": "We believe that it is only at home that we can get that supply of positive emotions that fill our lives with meaning.",
+      "text": "We believe that <span>the home is the only place where we can truly recharge with positivity; that fills our lives with meaning.</span>",
+      "speech": "<p>As long as 25 years ago, we founded our business with a bold vision of a world where the bathroom is the most important room in the home. Not just a functional space, but a place where beautiful design enhances every moment.</p><p>Since then, we have grown into an international, dynamic and successful group, with extensive knowledge of the trade and, more importantly, with a passion for self-development and the development of the industry. Our ambitions are fuelled by a young, ambitious team. Together, we have created a culture of continuous development, based on pleasure. </p><p>Our business is founded on openness, entrepreneurship, imagination and focus. We are always exploring, finding new inspiration, finding better ways to work, always putting our customers first and supporting each other.</p>",
+      "footerText": "Our goal is not just to make amazing bathroom products. We inspire people to dream big."
+    },
+    "mission": {
+      "preTitle": "Our Mission",
+      "bigText": "Is to create a world where the bathroom is the most important place in the house"
+    },
+    "culture": {
+      "preTitle": "Our Culture",
+      "bigText": "The culture of <span>continuous development based on pleasure.</span>"
+    },
+    "brandTarget": {
+      "preTitle": "Purpose of Our Brand",
+      "bigText": "Inspire people to dream big"
+    },
+    "values": {
+      "preTitle": "Our values are the foundation of Aquaart Group's worldview. This is what unites us all.",
+      "bigText": "<span>We welcome and share these values and use them to achieve our goals.</span>"
+    },
+    "open": {
+      "preTitle": "Openness",
+      "bigText": "Following the European business model, we are always open to new ideas. <span>Always searching</span> for inspiration; we find it in new acquaintances, new experiences and new ways of <span>working.</span>"
+    },
+    "ip": {
+      "preTitle": "Entrepreneurship",
+      "bigText": "We know what to do: <span>We do not wait to be told; we</span> take the initiative. We work for the result: always <span>progressive</span> and ambitious. <span>For us, nothing is impossible! We recognise opportunities all around us, every day.</span>"
+    },
+    "creativity": {
+      "preTitle": "Creativity",
+      "bigText": "<span>We know how to make an impact and differentiate ourselves.</span> We <span>engage</span> with clients and partners, always adding an element of surprise and delight."
+    },
+    "attention": {
+      "preTitle": "Attention",
+      "bigText": "We work in such a way that our people, both employees and partners, feel comfortable. We always think about customers and consider their interests. We make life easier and fill it with pleasure."
+    },
+    "ethics": {
+      "preTitle": "Ethics",
+      "bigText": "This code applies to all employees of the company, including top management. These principles are <span>intrinsic to our employees’ everyday lives,</span> their attitude towards work, customers, partners and each other.",
+      "ethicsOne": "Mutual respect, fairness and responsibility <span>in their day-to-day work.</span>",
+      "ethicsTwo": "Any actions that can damage the reputation of the company, its customers and partners <span>are not permitted.</span>",
+      "ethicsThree": "We conduct business in accordance with applicable antitrust and competition laws",
+      "ethicsFour": "Providing clients and partners with any material assets in order to obtain commercial benefits is strictly prohibited.",
+      "ethicsFive": "The presence of an implicit financial interest in any <span>organisation</span> that interacts with our company or is our competitor, shall be considered a conflict of interest.",
+      "ethicsSix": "As an international company, we comply with the laws of the Russian Federation, follow the global principles of Human Rights, Labour Relations, as well as Environment and Anti-Corruption Regulations"
+    },
+    "main-career": {
+      "pre-title": "Career",
+      "main-title": "Our primary KPI is the pleasure that is brought by work",
+      "people": "Our people are bright and cool!",
+      "tasks": "Our daily tasks include large-scale, ambitious projects that not everyone will undertake."
+    },
+    "our-brands": {
+      "pre-title": "Our Brands",
+      "main-text": "Two strong brands in the Aquaart Group",
+      "ampm": "The industry's first turnkey brand",
+      "damixa": "89 years of leadership in the taps category"
+    },
+    "contacts": {
+      "pre-title": "Contacts",
+      "main-text": "Want to ask a question or need help?",
+      "phone-text": "Hotline Aquaart Group"
+    },
+    "contact-form": {
+      "main-title": "Feedback",
+      "your-name": "Your name:",
+      "your-phone": "Phone number:",
+      "your-city": "City:",
+      "select-city": "Select from the list",
+      "fill-city": "Fill in if your city is not in the list:",
+      "text-message": "Message text:",
+      "submit": "Send",
+      "tip": "By clicking the \"Send\" button, I consent to the processing of my personal data.",
+      "thanks": "Thanks for the feedback!"
+    },
+    "ampm": {
+      "lead-text": "The industry's first turnkey brand",
+      "second-screen-big": "Iconic design, German quality and innovation - the characteristic signs of AM.PM products",
+      "second-screen-text": "Established in Germany in 2010, AM.PM has become the world's first brand of complete bathroom solutions and the most dynamic brand in the industry, as reflected in dozens of prestigious international design awards and millions of satisfied customers around the globe.",
+      "pre-title": "AM.PM believes in the importance of being unique and distinctive.",
+      "third-screen-big": "This is what inspires our team of professionals to create bathrooms that resonate not only with your minds, but also with your hearts.",
+      "featured-text": "Combining the best technology with emotional design, AM.PM creates truly inspiring products, affordable to anyone.",
+      "featured-text-link": "Go to ampm.ru"
+    },
+    "damixa": {
+      "lead-text": "89 years of leadership in the taps category",
+      "second-screen-big": "<span> A symbol </span> of the best Scandinavian traditions of design and engineering.",
+      "second-screen-text": "Founded in Denmark in 1932, the company has become a true innovator in both industry quality standards and original designs that have become the benchmark of Danish style.",
+      "pre-title": "Damixa has 342 patents!",
+      "third-screen-big": "Each of which has become a real industry breakthrough. The innovations are not unique, but it is Damixa that first introduced them to the world",
+      "featured-upper-text": "Damixa’s long-standing experience and knowledge of the plumbing industry has enabled them to build a completely customer-focused business model.",
+      "featured-middle-text": "Our focus on the optimisation of the product ranges, production and delivery processes has allowed us to make prices affordable to everyone. Through research & development we create classic, ergonomic designs both in form and function, for the ease and pleasure of our customers.  Reliable and concise, there is no doubt; Damixa's taps are perfectly at home in any bathroom.",
+      "featured-bottom-text": "",
+      "featured-text-link": "Go to damixa.ru"
+    }
+  }
+}
