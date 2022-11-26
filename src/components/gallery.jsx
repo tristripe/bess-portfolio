@@ -10,15 +10,23 @@ const Gallery = ({ data }) => {
   const openLightBox = (src) => {
     setImageSrc(src);
     setToggler(true);
+    document.addEventListener("keydown", keyDownHandler);
   };
 
   const closeLightBox = () => {
     setToggler(false);
+    document.removeEventListener("keydown", keyDownHandler);
+  };
+
+  const keyDownHandler = (e) => {
+    if (e.key === "Escape") {
+      closeLightBox();
+    }
   };
 
   return (
     <>
-      <div className="masonry">
+      <div className="masonry" onKeyDown={() => keyDownHandler}>
         {state.year === "currYear"
           ? data.currYear.edges.map(({ node, idx }) => (
               <div className="item" key={idx} onClick={() => openLightBox(node.childImageSharp.fluid.src)}>

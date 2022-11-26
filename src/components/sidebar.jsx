@@ -1,14 +1,17 @@
 import React, { useContext, useState } from "react";
 import { Link } from "gatsby";
-import { GlobalDispatchContext, GlobalStateContext } from "../context/GlobalContextProvider";
+import { GlobalDispatchContext } from "../context/GlobalContextProvider";
 import useMedia from "../hooks/useMedia";
 import iconMenu from "../images/icon-menu.svg";
 import iconClose from "../images/icon-close.svg";
+import { useTranslation } from "react-i18next";
+import LanguageMenu from "./language-menu";
 
 const Sidebar = () => {
   const dispatch = useContext(GlobalDispatchContext);
   const { isDesktop } = useMedia();
   const [isHidden, setIsHidden] = useState(false);
+  const { t } = useTranslation();
 
   const toggleIsLoading = () => {
     setIsHidden((current) => !current);
@@ -19,7 +22,7 @@ const Sidebar = () => {
       <div className="sidebar__wrapper">
         <div className="sidebar__header">
           <Link to="/" className="sidebar__logo">
-            BESSREED
+            BESS REED
           </Link>
           {!isDesktop && (
             <button className="sidebar__menu-toggle" onClick={toggleIsLoading}>
@@ -35,6 +38,7 @@ const Sidebar = () => {
                 to="/"
                 onClick={() => dispatch({ type: "CHANGE_YEAR", payload: "currYear" })}
                 className="sidebar__link"
+                activeClassName="sidebar__link--active"
               >
                 2022 год
               </Link>
@@ -45,16 +49,18 @@ const Sidebar = () => {
               >
                 2021 год
               </Link>
-              <Link to="#" className="sidebar__link">
-                Условия работы
+              <Link to="/tos" className="sidebar__link">
+                {t("sidebar.tos")}
               </Link>
-              <Link to="#" className="sidebar__link">
-                Прайс-лист
+              <Link to="/price-list" className="sidebar__link">
+                {t("sidebar.priceList")}
               </Link>
               <Link to="/about" className="sidebar__link">
-                Обо мне
+                {t("sidebar.about")}
               </Link>
-              <p className="copyright">Закопирайчено Мибипом</p>
+              <p className="copyright">{t("sidebar.copyright")}</p>
+
+              <LanguageMenu />
             </nav>
           </>
         )}

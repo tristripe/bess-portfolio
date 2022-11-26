@@ -1,7 +1,7 @@
 const path = require(`path`);
 
 module.exports = {
-  pathPrefix: `/bess-portfolio`,
+  pathPrefix: ``,
   siteMetadata: {
     siteUrl: "https://www.bess.ru",
     title: "Bess portfolio",

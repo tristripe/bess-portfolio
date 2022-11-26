@@ -12,7 +12,7 @@ const IndexPage = () => {
             node {
               base
               childImageSharp {
-                fluid {
+                fluid(maxWidth: 1400) {
                   src
                 }
               }
@@ -24,7 +24,7 @@ const IndexPage = () => {
             node {
               base
               childImageSharp {
-                fluid {
+                fluid(maxWidth: 1400) {
                   src
                 }
               }
@@ -44,4 +44,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Главная страница</title>;
+export const Head = () => <title>Галерея</title>;

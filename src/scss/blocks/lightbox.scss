@@ -6,6 +6,7 @@
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.7);
   cursor: pointer;
+  pointer-events: all;
 }
 
 .lightbox__wrapper {
@@ -19,6 +20,7 @@
 
 .lightbox__image-wrapper {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
 
