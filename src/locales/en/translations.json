@@ -1,5 +1,4 @@
 {
-  "titleSpan": "We <span>transform</span> the bathroom into the most important place in the <span>home.</span>",
   "sidebar": {
     "tos": "Terms of service",
     "priceList": "Commissions",
@@ -50,12 +49,17 @@
     "clothes": "Clothes: $15"
   },
   "characterDesign": {
-    "title" : "Character Design",
+    "title" : "Custom design",
     "subtitle": "Starting price $65",
     "basic": "You must provide a palette, skin description, species, and so on. I can work on bases/linearts (mine, yours, free or bought if this is allowed). I will make only one design option and edit it according to your wishes until your satisfaction"
   },
+  "chibi": {
+    "title": "Chibi",
+    "subtitle": "Cute art with lines, flat color and cel-shading",
+    "basic": "Only fullbody: 25$"
+  },
   "hybridPortrait": {
-    "title": "Hybrid Portrait",
+    "title": "Mixed portrait",
     "subtitle": "Sketch portrait sketched on paper and finished in Photoshop",
     "basic": "Basic: $10",
     "addColor": "Add color: $5",
@@ -65,6 +69,12 @@
   "customOrder": {
     "title": "Custom Order",
     "text": "If you have not found a suitable item in the price list, you can always write to me and we will discuss the type of work and the price individually!"
+  },
+  "about": {
+    "title": "Hello! You can call me Bess, I’m an artist from Russia.",
+    "secondLine": "I've been drawing for as long as I can remember, but I've been doing it professionally for about four years.",
+    "thirdLine": "Most of all I like to draw illustrations and concepts of various animals and fictional creatures.",
+    "more": "Где еще меня можно найти:"
   },
   "tos": {
     "title": "Terms of service",

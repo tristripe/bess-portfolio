@@ -17,6 +17,23 @@ const Sidebar = () => {
     setIsHidden((current) => !current);
   };
 
+  const renderMenu = () => {
+    const folders = ["illustrations", "sketches", "creatures", "mixed", "inktober", "cards"];
+    return folders.map((item, idx) => {
+      return (
+        <Link
+          to="/"
+          onClick={() => dispatch({ type: "CHANGE_FOLDER", payload: item })}
+          className="sidebar__link"
+          activeClassName="sidebar__link--active"
+          key={idx}
+        >
+          {item}
+        </Link>
+      );
+    });
+  };
+
   return (
     <section className="sidebar">
       <div className="sidebar__wrapper">
@@ -34,21 +51,7 @@ const Sidebar = () => {
         {(isDesktop || isHidden) && (
           <>
             <nav className="sidebar__navigation">
-              <Link
-                to="/"
-                onClick={() => dispatch({ type: "CHANGE_YEAR", payload: "currYear" })}
-                className="sidebar__link"
-                activeClassName="sidebar__link--active"
-              >
-                2022 год
-              </Link>
-              <Link
-                to="/"
-                onClick={() => dispatch({ type: "CHANGE_YEAR", payload: "prevYear" })}
-                className="sidebar__link"
-              >
-                2021 год
-              </Link>
+              {renderMenu()}
               <Link to="/tos" className="sidebar__link">
                 {t("sidebar.tos")}
               </Link>

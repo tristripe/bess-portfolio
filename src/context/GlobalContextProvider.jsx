@@ -3,16 +3,25 @@ import React, { createContext, useReducer } from "react";
 export const GlobalStateContext = createContext();
 export const GlobalDispatchContext = createContext();
 
+export const folders = {
+  ILLUSTRATIONS: "illustrations",
+  SKETCHES: "sketches",
+  CREATURES: "creatures",
+  MIXED: "mixed",
+  INKTOBER: "inktober",
+  CARDS: "cards",
+};
+
 const initialState = {
-  year: "currYear",
+  folder: "illustrations",
 };
 
 function reducer(state, action) {
   switch (action.type) {
-    case "CHANGE_YEAR": {
+    case "CHANGE_FOLDER": {
       return {
         ...state,
-        year: action.payload,
+        folder: action.payload,
       };
     }
     default:

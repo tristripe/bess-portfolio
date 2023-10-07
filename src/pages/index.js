@@ -7,7 +7,9 @@ const IndexPage = () => {
   const data = useStaticQuery(
     graphql`
       query MyQuery {
-        currYear: allFile(filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "2022" } }) {
+        illustrations: allFile(
+          filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "illustrations" } }
+        ) {
           edges {
             node {
               base
@@ -19,7 +21,55 @@ const IndexPage = () => {
             }
           }
         }
-        prevYear: allFile(filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "2021" } }) {
+        sketches: allFile(filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "sketches" } }) {
+          edges {
+            node {
+              base
+              childImageSharp {
+                fluid(maxWidth: 1400) {
+                  src
+                }
+              }
+            }
+          }
+        }
+        creatures: allFile(filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "creatures" } }) {
+          edges {
+            node {
+              base
+              childImageSharp {
+                fluid(maxWidth: 1400) {
+                  src
+                }
+              }
+            }
+          }
+        }
+        mixed: allFile(filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "mixed" } }) {
+          edges {
+            node {
+              base
+              childImageSharp {
+                fluid(maxWidth: 1400) {
+                  src
+                }
+              }
+            }
+          }
+        }
+        inktober: allFile(filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "inktober" } }) {
+          edges {
+            node {
+              base
+              childImageSharp {
+                fluid(maxWidth: 1400) {
+                  src
+                }
+              }
+            }
+          }
+        }
+        cards: allFile(filter: { publicURL: { regex: "/(jpg|png)/" }, relativeDirectory: { eq: "cards" } }) {
           edges {
             node {
               base
@@ -34,6 +84,7 @@ const IndexPage = () => {
       }
     `,
   );
+
   return (
     <>
       <Sidebar />

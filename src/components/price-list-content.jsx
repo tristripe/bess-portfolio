@@ -1,8 +1,24 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import Ducks from "../images/2022/Duck-Dreams.jpg";
 import LightBox from "./lightbox";
 import ImageWrapper from "./image-wrapper";
+import Illustration1 from "../images/orders/1_Illustration_a.jpg";
+import Illustration2 from "../images/orders/1_Illustration_b.jpg";
+import Sketch1 from "../images/orders/2_Sketch_a.jpg";
+import Sketch2 from "../images/orders/2_Sketch_b.jpg";
+import LineIll1 from "../images/orders/3_Lined_Illustration_a.jpg";
+import LineIll2 from "../images/orders/3_Lined_Illustration_b.jpg";
+import LineSk1 from "../images/orders/4_Lined_Sketch_a.jpg";
+import LikeSk2 from "../images/orders/4_Lined_Sketch_b.jpg";
+import Ref1 from "../images/orders/5_Reference_a.jpg";
+import Ref2 from "../images/orders/5_Reference_b.jpg";
+import Char1 from "../images/orders/6_Character_Design_a.jpg";
+import Char2 from "../images/orders/6_Character_Design_b.jpg";
+import Chibi1 from "../images/orders/7_Chibi_a.jpg";
+import Chibi2 from "../images/orders/7_Chibi_b.jpg";
+import Hybrid1 from "../images/orders/8_Hybrid_Portrait_a.jpg";
+import Hybrid2 from "../images/orders/8_Hybrid_Portrait_b.jpg";
+import Custom from "../images/orders/9_Custom_Order.jpg";
 
 const PriceListContent = () => {
   const { t } = useTranslation();
@@ -49,8 +65,8 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("illustration.fullBody")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Illustration1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Illustration2} />
               </div>
             </article>
             <article className="price-list__item image-item">
@@ -62,8 +78,8 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("sketch.fullBody")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Sketch1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Sketch2} />
               </div>
             </article>
             <article className="price-list__item image-item">
@@ -75,8 +91,8 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("linedIllustration.fullBody")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={LineIll1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={LineIll2} />
               </div>
             </article>
             <article className="price-list__item image-item">
@@ -88,8 +104,8 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("linedSketch.fullBody")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={LineSk1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={LikeSk2} />
               </div>
             </article>
             <article className="price-list__item image-item">
@@ -103,8 +119,8 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("referenceSheet.clothes")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ref1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ref2} />
               </div>
             </article>
             <article className="price-list__item image-item">
@@ -114,8 +130,19 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("characterDesign.basic")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Char1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Char2} />
+              </div>
+            </article>
+            <article className="price-list__item image-item">
+              <div className="image-item__text-wrapper">
+                <h3 className="image-item__title">{t("chibi.title")}</h3>
+                <p className="image-item__text">{t("chibi.subtitle")}</p>
+                <p className="image-item__text">{t("chibi.basic")}</p>
+              </div>
+              <div className="image-item__image-wrapper">
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Chibi1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Chibi2} />
               </div>
             </article>
             <article className="price-list__item image-item">
@@ -128,8 +155,8 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("hybridPortrait.notAvailable")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Hybrid1} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Hybrid2} />
               </div>
             </article>
             <article className="price-list__item image-item">
@@ -138,8 +165,7 @@ const PriceListContent = () => {
                 <p className="image-item__text">{t("customOrder.text")}</p>
               </div>
               <div className="image-item__image-wrapper">
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
-                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Ducks} />
+                <ImageWrapper openLightBox={openLightBox} width={"450"} children={Custom} />
               </div>
             </article>
           </div>
